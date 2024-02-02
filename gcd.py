@@ -5,4 +5,4 @@ def gcd(a,b):
         b=remainder
     return a
 
-print(gcd(10230,200))
+print(gcd(4851,3003))
