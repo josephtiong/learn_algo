@@ -1,5 +1,5 @@
 def mod(number, m):
     k = int(number/m)
     return number - k*m
-
-print(mod(148383,5))
+if __name__ == "__main__":
+    print(mod(148383,5))

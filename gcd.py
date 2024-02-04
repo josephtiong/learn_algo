@@ -1,6 +1,8 @@
+from mod import mod
 def gcd(a,b):
     while (b !=0):
-        remainder = a%b
+        remainder = mod(a,b)
+        # remainder = a%b
         a=b
         b=remainder
     return a

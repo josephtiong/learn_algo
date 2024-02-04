@@ -4,7 +4,7 @@ def mod_power(number, power, k):
         return(number%k)
     
     x = mod_power(number, int(power/2), k)
-    print(x)
+    # print(x)
         
     if power%2==0:
         return(x*x%k)
