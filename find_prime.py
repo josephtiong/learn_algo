@@ -2,8 +2,9 @@ from math import sqrt
 def find_prime(number):
     prime_factors = list()
 
-    if (number % 2 == 0):
+    while (number % 2 == 0):
         prime_factors.append(2)
+        number = number/2
 
     candidate = 3
     max_factor = sqrt(number)
@@ -18,8 +19,9 @@ def find_prime(number):
         candidate = candidate +2
 
     if (number >1):
-        prime_factors.append(number)
+        # print("Last number")
+        prime_factors.append(int(number))
 
     return prime_factors
 
-print(find_prime(100))
+print(find_prime(786))
