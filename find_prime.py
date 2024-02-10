@@ -60,5 +60,5 @@ def find_prime(number):
 
 
 
-print(find_prime(1000))
-print(len(find_prime(1000)))
+print(find_prime(997))
+print(len(find_prime(997)))
